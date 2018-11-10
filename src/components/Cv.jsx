@@ -8,7 +8,7 @@ const CV = () => {
       </p>
       <div className="container d-flex mt-5 mb-5">
         <button type="button" className=" m-auto btn   btn-dark">
-          <a href="../Cv/newCv.pdf" download="newCv.pdf">
+          <a className="text-light" href="../Cv/newCv.pdf" download="newCv.pdf">
             DOWNLOAD CV
           </a>
         </button>

@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from "react";
 import { withRouter } from "react-router-dom";
 import { Badge } from "reactstrap";
-
+import { Link } from "react-router-dom";
 import projects from "../projects.js";
 
 class SingelPagePorject extends Component {
@@ -13,12 +13,10 @@ class SingelPagePorject extends Component {
 
   render() {
     const project = projects[this.props.match.params.id];
-    console.log(project);
 
-    console.log(this.props);
     return (
       <Fragment>
-        <div className="text-center">
+        <div className="text-center  mt-2 pt-5">
           <h1 className="display-3">{project.title}</h1>
           <img
             className="image projectImg img-fluid"
@@ -33,8 +31,15 @@ class SingelPagePorject extends Component {
               </Badge>
             ))}
           </div>
-          <button className="btn btn-dark mt-3">
-            <a href={project.projectUrl}>Check it On Github!</a>
+          <button className="btn btn-dark m-5">
+            <a className="text-light " href={project.projectUrl}>
+              Check it On Github!
+            </a>
+          </button>
+          <button className="btn btn-dark mt-3 m-5">
+            <Link className="text-light" to={"/"}>
+              Back Home !!!
+            </Link>
           </button>
         </div>
       </Fragment>

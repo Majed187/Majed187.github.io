@@ -29,7 +29,7 @@ class Skills extends Component {
             <div className=" mt-5 clearfix">
               <h1 className=" display-3 mt-5 text-center">IT Skills</h1>
               <ul className="lang w-50 pt-5 pl-0 m-0 float-left ">
-                <h1> Programming Languages </h1>
+                <h1> Programming Languages & Environment </h1>
                 <li>HTML5</li>
                 <li>CSS3</li>
                 <li>JavaScript& ES6 </li>

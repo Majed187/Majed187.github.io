@@ -8,7 +8,6 @@ configureAnchors({ offset: -69, scrollDuration: 1000 });
 
 class Projects extends Component {
   render() {
-    console.log(this.props);
     return (
       <ScrollableAnchor id={"Projects"}>
         <div className="container">

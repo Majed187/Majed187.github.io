@@ -7,18 +7,21 @@ import shopping from "./images/shopping.jpg";
 import shopping_2 from "./images/pexels-photo-1059117.jpeg";
 import frozen from "./images/frozen.jpg";
 import food from "./images/pexels-photo-326278.jpeg";
+import food_2 from "./images/food.jpg";
+import weather from "./images/weather.jpg";
 export default [
   {
     title: "Weather API ",
     description: "Check the Weather ",
-    imgUrl: "",
+    imgUrl: weather,
     thumbnailUrl: frozen,
-    projectUrl: "https://github.com/Majed187/React-WeatherAPI"
+    projectUrl: "https://github.com/Majed187/React-WeatherAPI",
+    tags: ["React", "javascript", "sass"]
   },
   {
     title: " Food Recipes  ",
     description: "find the recipe of your favurete food   ",
-    imgUrl: "w",
+    imgUrl: food_2,
     thumbnailUrl: food,
     projectUrl: "https://github.com/Majed187/react-recipe",
     tags: ["React", "javascript", "sass"]
