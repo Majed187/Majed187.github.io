@@ -10,14 +10,14 @@ class Contact extends Component {
         <main className="contact container mt-5  ">
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-              <h2>Contact</h2>
+              <h2 className="font-weight-bold ">Contact</h2>
             </div>
           </div>
           <div className="row d-flex justify-content-center ">
             <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3">
               <form
                 id="contact-form "
-                className="form"
+                className="form mt-4"
                 action="https://formspree.io/majdsy369@gmail.com"
                 method="POST"
               >
@@ -30,7 +30,7 @@ class Contact extends Component {
                     className="form-control h3"
                     id="name"
                     name="name"
-                    placeholder="Your name"
+                    placeholder="Please add your Name."
                     required
                   />
                 </div>
@@ -43,7 +43,7 @@ class Contact extends Component {
                     className="form-control h3"
                     id="email"
                     name="email"
-                    placeholder="Your Email"
+                    placeholder="Please add your Email."
                     required
                   />
                   <small id="emailHelp" className="form-text text-muted">

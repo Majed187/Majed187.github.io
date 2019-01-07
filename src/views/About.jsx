@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import CV from "../components/Cv";
 import ScrollableAnchor from "react-scrollable-anchor";
-
 import { configureAnchors } from "react-scrollable-anchor";
 
 configureAnchors({ offset: -69, scrollDuration: 1000 });
@@ -11,9 +10,11 @@ class Skills extends Component {
     return (
       <ScrollableAnchor id={"About"}>
         <div className="About container h-100 ">
-          <h1 className="display-3 text-center mb-5 ">ABOUT ME</h1>
+          <h1 className="display-4 text-center mb-5 font-weight-bold ">
+            ABOUT ME
+          </h1>
 
-          <div className=" pl-5 h3 ">
+          <div className=" pl-5 h4 ">
             <p>
               I’m a passionate and pragmatic web developer, specializing in
               full-stack development using different technologies on the
@@ -26,8 +27,10 @@ class Skills extends Component {
               clean code. <br />I also have several years of experience leading.
               eager to learn new things and technologies.
             </p>
-            <div className=" mt-5 clearfix">
-              <h1 className=" display-3 mt-5 text-center">IT Skills</h1>
+            <div className=" mt-5 clearfix aboutMe">
+              <h1 className=" display-4 mt-5 text-center font-weight-bold">
+                IT Skills
+              </h1>
               <ul className="lang w-50 pt-5 pl-0 m-0 float-left ">
                 <h1> Programming Languages & Environment </h1>
                 <li>HTML5</li>
@@ -37,6 +40,7 @@ class Skills extends Component {
               </ul>
               <ul className="lang w-50  py-5 float-right">
                 <h1> Libraries & Tools </h1>
+                <br />
                 <li>Sass </li>
                 <li>React</li>
                 <li>react-router</li>

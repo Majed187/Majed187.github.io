@@ -12,7 +12,7 @@ class Projects extends Component {
       <ScrollableAnchor id={"Projects"}>
         <div className="container">
           <div className="text-center">
-            <h1 className="display-3 ">Featured Work</h1>
+            <h1 className="display-3 font-weight-bold ">Featured Work</h1>
           </div>
 
           {projects.map((project, i) => (

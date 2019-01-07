@@ -1,13 +1,28 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
-@import url("https://fonts.googleapis.com/css?family=Ranga");
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif");
 
 body {
-  font-family: "Ranga", cursive, sans-serif;
+  font-family: "Noto Serif", "serif", sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  color: #555;
   margin: 0;
   padding: 0;
 
   .home {
     height: 100vh;
+    background-image: url("../images/apple-black.jpg");
+    background-size: cover;
+  }
+  .majed {
+    text-shadow: 0 4px black;
+  }
+
+  .aboutMe {
+    line-height: 1.8;
+  }
+  .logo {
+    font-size: 33px;
   }
 
   li {
@@ -39,7 +54,7 @@ textarea {
 }
 .contact {
   .form-label {
-    color: #5e9bfc;
+    color: #666666;
     margin: 0;
     display: block;
     opacity: 1;
@@ -85,18 +100,21 @@ textarea {
 
   .footer {
     position: absolute;
-    width: 97vw;
+    width: 100%;
     bottom: 0;
     padding-left: 11px;
     text-align: center;
-
+    background-color: #333;
     .icon {
       margin-left: 11px;
       font-size: 50px;
     }
+    .twitter {
+      color: #2e90f6;
+    }
 
-    .insta {
-      color: #e4405f;
+    .linkedin {
+      color: #176bb7;
     }
 
     .git {
@@ -108,7 +126,6 @@ textarea {
   -webkit-animation: bounce-top 0.9s both;
   animation: bounce-top 0.9s both;
 }
-
 @-webkit-keyframes bounce-top {
   0% {
     -webkit-transform: translateY(-45px);
@@ -209,8 +226,7 @@ textarea {
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
-
-  25%,
+  form 25%,
   55%,
   75%,
   87% {
@@ -227,4 +243,21 @@ textarea {
     animation-timing-function: ease-out;
     opacity: 1;
   }
+}
+/* Services Section */
+#services-section {
+  padding: 120px 0;
+  background-color: #fff;
+}
+#services-section h4 {
+  font-weight: 700;
+}
+.space {
+  margin-top: 40px;
+}
+#services-section i.fa {
+  font-size: 40px;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+  color: #0dbf9b;
 }

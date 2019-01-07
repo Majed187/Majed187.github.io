@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedinIn,
   faTwitter,
-  faGithubSquare
+  faGithub
 } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = props => (
@@ -15,7 +15,10 @@ const Footer = props => (
           target="_blank"
           rel="noreferrer noopener"
         >
-          <FontAwesomeIcon className=" icon insta p-1" icon={faLinkedinIn} />
+          <FontAwesomeIcon
+            className=" icon linkedin insta p-1"
+            icon={faLinkedinIn}
+          />
         </a>
       </span>
       <span>
@@ -24,7 +27,7 @@ const Footer = props => (
           target="_blank"
           rel="noreferrer noopener"
         >
-          <FontAwesomeIcon className="icon pl-1 " icon={faTwitter} />
+          <FontAwesomeIcon className="icon twitter pl-1 " icon={faTwitter} />
         </a>
       </span>
       <span>
@@ -33,7 +36,7 @@ const Footer = props => (
           target="_blank"
           rel="noreferrer noopener"
         >
-          <FontAwesomeIcon className="icon git pl-1" icon={faGithubSquare} />
+          <FontAwesomeIcon className="icon git pl-1" icon={faGithub} />
         </a>
       </span>
     </footer>

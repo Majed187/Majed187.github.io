@@ -34,15 +34,15 @@ class Header extends Component {
     return (
       <Navbar dark className="bg-dark my-nav fixed-top" expand="md">
         <div className="container">
-          <NavbarBrand className="text-light h1">Sh_Rendan</NavbarBrand>
+          <NavbarBrand className="text-light logo">Sh_Rendan</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse
             isOpen={this.state.isOpen}
             onClick={this.reset}
-            className="Collaps"
+            className="Collaps "
             navbar
           >
-            <Nav className="ml-auto h2" navbar>
+            <Nav className="ml-auto h2 " navbar>
               <NavItem>
                 <NavLink href="/#Home" activeClassName="active">
                   Home
