@@ -1,8 +1,15 @@
+// @import "../../node_modules/bootstrap/scss/bootstrap";
+// @import url("https://fonts.googleapis.com/css?family=Noto+Serif");
+//
+// body {
+//   font-family: "Noto Serif", "serif", sans-serif;
+//
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
-@import url("https://fonts.googleapis.com/css?family=Noto+Serif");
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px");
 
 body {
-  font-family: "Noto Serif", "serif", sans-serif;
+  font-family: "Salbo 27px", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #555;
@@ -19,7 +26,7 @@ body {
   }
 
   .aboutMe {
-    line-height: 1.8;
+    line-height: 1.6;
   }
   .logo {
     font-size: 33px;
@@ -243,21 +250,4 @@ textarea {
     animation-timing-function: ease-out;
     opacity: 1;
   }
-}
-/* Services Section */
-#services-section {
-  padding: 120px 0;
-  background-color: #fff;
-}
-#services-section h4 {
-  font-weight: 700;
-}
-.space {
-  margin-top: 40px;
-}
-#services-section i.fa {
-  font-size: 40px;
-  margin-bottom: 20px;
-  transition: all 0.5s;
-  color: #0dbf9b;
 }

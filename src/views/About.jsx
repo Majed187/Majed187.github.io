@@ -14,8 +14,8 @@ class Skills extends Component {
             ABOUT ME
           </h1>
 
-          <div className=" pl-5 h4 ">
-            <p>
+          <div className=" pl-5 h3 ">
+            <p className="aboutMe">
               I’m a passionate and pragmatic web developer, specializing in
               full-stack development using different technologies on the
               front/backend. <br />
